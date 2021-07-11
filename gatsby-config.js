@@ -12,7 +12,7 @@ module.exports = {
     title: `Gatsby WordPress Twenty Twenty`,
     description: `Gatsby starter site for Twenty Twenty Gatsby Theme.`,
     author: `@henrikwirth`,
-    siteUrl: "http://aaron.local/graphql",
+    siteUrl: "https://gatsby-wp-starter-aaron.netlify.app",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: "http://aaron.local/graphql",
+        url: "https://gatsby-wp-starter-aaron.netlify.app/graphql",
         verbose: true,
         develop: {
           hardCacheMediaFiles: true,
