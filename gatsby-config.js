@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: "https://gatsby-wp-starter-aaron.netlify.app/graphql",
+        url: "http://gatsby-wp-starter-aaron.netlify.app/graphql",
         verbose: true,
         develop: {
           hardCacheMediaFiles: true,
